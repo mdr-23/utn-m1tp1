@@ -7,10 +7,10 @@
 header{
     text-align: left;
     font-size: 10px;
-    background-color: rgb(0, 50, 107);
+    background-color: rgba(170, 170, 170, 0.288);
     padding: 30px;
     font-family: 'Bevan', cursive;
-    color: #fff;
+    color: rgb(23, 161, 46);
 }
 
 h1{
@@ -23,7 +23,7 @@ p{
 }
 
 form{
-    background-color: rgba(0, 50, 107, 0.288);
+    background-color: rgba(170, 170, 170, 0.288);
     margin: 50px 400px;
     padding: 30px;
     border: solid 0 rgb(0, 50, 107);
@@ -57,8 +57,8 @@ button{
     padding: 10px 70px;
     font-family: 'Average', serif;
     font-size: 16px;
-    background-color: rgb(0, 50, 107);
-    border: 0px solid rgb(0, 50, 107);
+    background-color: rgb(23, 161, 46);
+    border: 0px solid rgb(23, 161, 46);
     border-radius: 10px;
     color: #fff;
 }
