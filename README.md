@@ -12,7 +12,7 @@ Vos como parte del equipo de desarrollo debes realizar el maquetado HTML de este
 
 Los datos que se deben solicitar son los siguientes:
 
--Nombre
+- Nombre
 -Apellido
 -DNI
 -Email
