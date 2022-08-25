@@ -4,48 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <script src="main.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Bevan&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Average&display=swap" rel="stylesheet">
+
     <title>Trabajo Práctico 1</title>
 </head>
 <body>
     <header>
-        <h1>Seguro No Pagamos Cooperativa</h1>
+        <h1>Seguro No Pagamos</h1>
+        <p>Cooperativa</p>
     </header>
 
 
     <form action="">
-        <div>
-            <label for="">Nombre:</label>
-            <input type="text" placeholder="Nombre">
-        </div>
+        <div class="form-interior">
+            <div>
+                <label for="">Nombre</label>
+            </div>
+            <div class="input-center">
+                <input type="text">
+            </div>
 
-        <div>
-            <label for="">Apellido:</label>
-            <input type="text" placeholder="Apellido">
-        </div>
+            <div>
+                <label for="">Apellido</label>
+            </div>
+            <div class="input-center">
+                <input type="text">
+            </div>
 
-        <div>
-            <label for="">DNI:</label>
-            <input type="number" placeholder="DNI">
-        </div>
+            <div>
+                <label for="">DNI</label>
+            </div>
+            <div class="input-center">
+                <input type="number">
+            </div>
 
-        <div>
-            <label for="">Email:</label>
-            <input type="text" placeholder="ejemplo@email.com">
-        </div>
+            <div >
+                <label for="">Email</label>
+            </div>
+            <div class="input-center">
+                <input type="text">
+            </div>
 
-        <div>
-            <label for="">Teléfono:</label>
-            <input type="number" placeholder="11000000000">
-        </div>
+            <div>
+                <label for="">Teléfono</label>
+            </div>
+            <div class="input-center">
+                <input type="number">
+            </div>
 
-        <div>
-            <label for="">Elige tu plan:</label>
-            <select name="planes" id="planes" onchange="mostrarPrecio();">
-                <option value="$500">Básico</option>
-                <option value="$1000">Intermedio</option>
-                <option value="$1500">Premium</option>
-            </select>
+            <div>
+                <label for="">Elige tu plan</label>
+            </div>
+            <div class="input-center">
+                <select name="planes" id="planes" onchange="mostrarPrecio();">
+                    <option value="$500">Básico</option>
+                    <option value="$1000">Intermedio</option>
+                    <option value="$1500">Premium</option>
+                </select>
+            </div>
+
+            <div class="btn">
+                <button>Enviar</button>
+            </div>
         </div>
     </form>
 
