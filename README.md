@@ -1,9 +1,9 @@
 # Desarrollo en React .JS
 <hr>
-# Trabajo práctico Unidad N° 1 (optativo)
+<h2>Trabajo práctico Unidad N° 1 (optativo)</h2>
 <hr>
 
-<h2>Consigna:</h2>
+<h3>Consigna:</h3>
 
 Seguro No Pagamos Cooperativa es una compañía de seguros que lleva 2 años en el mercado. Hasta el momento trabajan con los esquemas tradicionales de venta, es decir contacto telefónico o a través de sus asesores con los potenciales clientes.
 
