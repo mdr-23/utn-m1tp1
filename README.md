@@ -1,7 +1,6 @@
 # Desarrollo en React .JS
-<hr>
+
 <h2>Trabajo práctico Unidad N° 1 (optativo)</h2>
-<hr>
 
 <h3>Consigna:</h3>
 
