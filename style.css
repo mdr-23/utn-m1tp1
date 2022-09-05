@@ -81,3 +81,17 @@ button{
     font-size: 20px;
     color: red;
 }
+
+#planElegido{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: rgb(23, 161, 46);
+}
+
+#mensajeBienvenida{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 28px;
+    color: rgb(23, 161, 46);
+}

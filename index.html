@@ -68,13 +68,16 @@
             </div>
             <div class="input-center">
                 <select name="planes" id="planes" onchange="mostrarPrecio();">
-                    <option value="$500">Básico</option>
-                    <option value="$1000">Intermedio</option>
-                    <option value="$1500">Premium</option>
+                    <option value="">Seleccionar</option>
+                    <option value="1">Básico</option>
+                    <option value="2">Intermedio</option>
+                    <option value="3">Premium</option>
                 </select>
             </div>
 
             <div id="camposObligatorios"></div>
+
+            <div id="planElegido"></div>
 
             <div id="mensajeBienvenida"></div>
 
@@ -83,8 +86,6 @@
             </div>
         </div>
     </form>
-
-    <div id="mensaje-enviado"></div>
 
 
 
