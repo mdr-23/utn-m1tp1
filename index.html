@@ -26,41 +26,41 @@
     </header>
 
 
-    <form action="">
+    <form action="" name="formPlanes" onsubmit="enviarFormulario(); return false">
         <div class="form-interior">
             <div>
                 <label for="">Nombre</label>
             </div>
             <div class="input-center">
-                <input type="text">
+                <input type="text" name="nombre">
             </div>
 
             <div>
                 <label for="">Apellido</label>
             </div>
             <div class="input-center">
-                <input type="text">
+                <input type="text" name="apellido">
             </div>
 
             <div>
                 <label for="">DNI</label>
             </div>
             <div class="input-center">
-                <input type="number">
+                <input type="number" name="dni">
             </div>
 
             <div >
                 <label for="">Email</label>
             </div>
             <div class="input-center">
-                <input type="text">
+                <input type="email" name="email">
             </div>
 
             <div>
                 <label for="">Teléfono</label>
             </div>
             <div class="input-center">
-                <input type="number">
+                <input type="number" name="telefono">
             </div>
 
             <div>
@@ -74,11 +74,15 @@
                 </select>
             </div>
 
+            <div id="camposObligatorios"></div>
+
             <div class="btn">
-                <button>Enviar</button>
+                <button type="submit">Enviar</button>
             </div>
         </div>
     </form>
+
+    <div id="mensaje-enviado"></div>
 
 
 

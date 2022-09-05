@@ -74,3 +74,10 @@ button{
     justify-content: center;
     margin-top: 50px;
 }
+
+#camposObligatorios{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: red;
+}
